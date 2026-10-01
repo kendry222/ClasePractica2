@@ -1,24 +1,32 @@
-# Clase Práctica 2 - Operaciones con Listas
+# Clase Practica 2
 
-Implementación de tres operaciones sobre listas genéricas usando `ArrayList` y `LinkedList`.
+Esto es lo de la clase practica 2, hay que hacer 3 cosas con listas.
 
-## Operaciones
+## Que hace
 
-1. **Eliminar elementos repetidos**: `A-B-A-C-B-D-A` → `A-B-C-D`
-2. **Rotar una posición a la derecha**: `A-B-C-D` → `D-A-B-C`
-3. **Concatenar dos listas**: `A-B-C-D` + `E-F-G-H` → `A-B-C-D-E-F-G-H`
+1. Quitar los elementos que se repiten en una lista
+   - Ej: A-B-A-C-B-D-A  ->  A-B-C-D
+
+2. Rotar la lista una posicion a la derecha
+   - Ej: A-B-C-D  ->  D-A-B-C
+
+3. Juntar dos listas en una sola
+   - Ej: A-B-C-D + E-F-G-H  ->  A-B-C-D-E-F-G-H
 
 ## Archivos
 
-- `IList.java`: Interfaz genérica.
-- `ArrayList.java`: Lista basada en arreglo.
-- `Node.java`: Nodo para lista enlazada.
-- `LinkedList.java`: Lista enlazada.
-- `Practica2.java`: Métodos de la práctica y prueba.
-- `README.md`: Este archivo.
+- IList.java -> la interfaz
+- ArrayList.java -> la lista con arreglo
+- Node.java -> el nodo
+- LinkedList.java -> la lista enlazada
+- Practica2.java -> los 3 metodos y el main
+- README.md -> esto
 
-## Compilar y ejecutar
+## Como correrlo
 
-```bash
 javac *.java
 java Practica2
+
+## Autor
+
+Kendry
